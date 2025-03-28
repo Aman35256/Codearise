@@ -1,0 +1,136 @@
+Symptom,Condition,Description,Risk Score
+Fever,Normal,Temperature: 98.6°F - 100.4°F (37°C - 38°C),2
+Fever,Moderate,Temperature: 100.4°F - 103°F (38°C - 39.4°C),5
+Fever,Severe,Temperature: >103°F (>39.4°C) or fever lasting >3 days,8
+Cough,Normal,"Mild, occasional cough with no other symptoms",2
+Cough,Moderate,Persistent cough with mild shortness of breath,5
+Cough,Severe,"Cough with blood, high fever, or severe shortness of breath",8
+Shortness of Breath,Normal,Mild breathlessness after exertion,3
+Shortness of Breath,Moderate,Breathlessness at rest or with mild activity,6
+Shortness of Breath,Severe,"Severe breathlessness, inability to speak, or blue lips",10
+Chest Pain,Normal,"Mild, fleeting pain (e.g., muscle strain)",2
+Chest Pain,Moderate,Persistent pain with mild pressure,6
+Chest Pain,Severe,"Crushing pain radiating to arm/jaw, with sweating or nausea",10
+Headache,Normal,"Mild, occasional headache",2
+Headache,Moderate,Frequent headaches with mild nausea,5
+Headache,Severe,"Sudden, severe headache with confusion or vision changes",8
+Abdominal Pain,Normal,"Mild, temporary pain (e.g., gas)",2
+Abdominal Pain,Moderate,Persistent pain with bloating or mild nausea,5
+Abdominal Pain,Severe,"Severe pain with vomiting, fever, or inability to pass stool",9
+Fatigue,Normal,Mild tiredness after activity,2
+Fatigue,Moderate,Persistent fatigue affecting daily activities,5
+Fatigue,Severe,Extreme fatigue with dizziness or fainting,8
+Nausea,Normal,"Mild, occasional nausea",2
+Nausea,Moderate,Persistent nausea with mild vomiting,5
+Nausea,Severe,Severe nausea with inability to eat or drink,8
+Dizziness,Normal,"Mild, occasional dizziness",2
+Dizziness,Moderate,Frequent dizziness with mild imbalance,5
+Dizziness,Severe,Severe dizziness with fainting or confusion,9
+Rash,Normal,"Mild, localized rash with no other symptoms",2
+Rash,Moderate,Widespread rash with mild itching,5
+Rash,Severe,"Rash with fever, swelling, or difficulty breathing",9
+Joint Pain,Normal,"Mild, occasional pain",2
+Joint Pain,Moderate,Persistent pain with mild swelling,5
+Joint Pain,Severe,"Severe pain with redness, swelling, or inability to move",8
+Back Pain,Normal,"Mild, occasional pain",2
+Back Pain,Moderate,Persistent pain with mild stiffness,5
+Back Pain,Severe,"Severe pain with numbness, tingling, or weakness in legs",9
+Sore Throat,Normal,"Mild, occasional sore throat",2
+Sore Throat,Moderate,Persistent sore throat with mild fever,5
+Sore Throat,Severe,Severe sore throat with difficulty swallowing or breathing,8
+Vomiting,Normal,"Mild, occasional vomiting",2
+Vomiting,Moderate,Persistent vomiting with mild dehydration,6
+Vomiting,Severe,Severe vomiting with inability to keep fluids down,9
+Diarrhea,Normal,"Mild, occasional diarrhea",2
+Diarrhea,Moderate,Persistent diarrhea with mild dehydration,5
+Diarrhea,Severe,Severe diarrhea with blood or inability to stay hydrated,9
+Swelling,Normal,"Mild, localized swelling",2
+Swelling,Moderate,Widespread swelling with mild discomfort,5
+Swelling,Severe,"Severe swelling with pain, redness, or fever",8
+Confusion,Normal,"Mild, temporary confusion (e.g., lack of sleep)",3
+Confusion,Moderate,Persistent confusion with mild disorientation,6
+Confusion,Severe,Severe confusion with memory loss or agitation,10
+Fainting,Normal,"Mild, occasional fainting (e.g., dehydration)",4
+Fainting,Moderate,Frequent fainting with mild dizziness,7
+Fainting,Severe,Severe fainting with chest pain or irregular heartbeat,10
+Palpitations,Normal,"Mild, occasional palpitations",3
+Palpitations,Moderate,Frequent palpitations with mild dizziness,6
+Palpitations,Severe,Severe palpitations with chest pain or fainting,9
+Weight Loss,Normal,"Mild, intentional weight loss",2
+Weight Loss,Moderate,Unintentional weight loss (5-10% of body weight),5
+Weight Loss,Severe,"Rapid, unintentional weight loss (>10% of body weight)",8
+Night Sweats,Normal,"Mild, occasional night sweats",2
+Night Sweats,Moderate,Frequent night sweats with mild fatigue,5
+Night Sweats,Severe,Severe night sweats with fever or weight loss,8
+Itching,Normal,"Mild, localized itching",2
+Itching,Moderate,Widespread itching with mild rash,5
+Itching,Severe,Severe itching with swelling or difficulty breathing,9
+Muscle Pain,Normal,"Mild, occasional pain",2
+Muscle Pain,Moderate,Persistent pain with mild stiffness,5
+Muscle Pain,Severe,Severe pain with swelling or inability to move,8
+Bone Pain,Normal,"Mild, occasional pain",2
+Bone Pain,Moderate,Persistent pain with mild tenderness,5
+Bone Pain,Severe,Severe pain with swelling or fever,8
+Neck Pain,Normal,"Mild, occasional pain",2
+Neck Pain,Moderate,Persistent pain with mild stiffness,5
+Neck Pain,Severe,"Severe pain with numbness, tingling, or weakness in arms",9
+Pelvic Pain,Normal,"Mild, occasional pain",2
+Pelvic Pain,Moderate,Persistent pain with mild discomfort,5
+Pelvic Pain,Severe,"Severe pain with fever, bleeding, or inability to urinate",9
+Runny Nose,Normal,"Mild, occasional runny nose",2
+Runny Nose,Moderate,Persistent runny nose with mild congestion,4
+Runny Nose,Severe,Severe runny nose with fever or difficulty breathing,7
+Nasal Congestion,Normal,"Mild, occasional congestion",2
+Nasal Congestion,Moderate,Persistent congestion with mild discomfort,4
+Nasal Congestion,Severe,Severe congestion with difficulty breathing,7
+Sneezing,Normal,"Mild, occasional sneezing",2
+Sneezing,Moderate,Persistent sneezing with mild congestion,4
+Sneezing,Severe,Severe sneezing with fever or difficulty breathing,7
+Blood in Stool,Normal,"Mild, occasional trace of blood",4
+Blood in Stool,Moderate,Persistent blood with mild pain,7
+Blood in Stool,Severe,Severe bleeding with dizziness or fainting,10
+Black or Tarry Stools,Normal,"Mild, occasional dark stools",4
+Black or Tarry Stools,Moderate,Persistent black stools with mild pain,7
+Black or Tarry Stools,Severe,Severe black stools with dizziness or fainting,10
+Loss of Appetite,Normal,"Mild, occasional loss of appetite",2
+Loss of Appetite,Moderate,Persistent loss of appetite with mild weight loss,5
+Loss of Appetite,Severe,Severe loss of appetite with rapid weight loss,8
+Excessive Thirst,Normal,"Mild, occasional thirst",2
+Excessive Thirst,Moderate,Persistent thirst with mild dehydration,5
+Excessive Thirst,Severe,Severe thirst with confusion or fainting,8
+Frequent Urination,Normal,"Mild, occasional urination",2
+Frequent Urination,Moderate,Persistent urination with mild discomfort,5
+Frequent Urination,Severe,Severe urination with pain or blood in urine,8
+Painful Urination,Normal,"Mild, occasional discomfort",3
+Painful Urination,Moderate,Persistent pain with mild burning,6
+Painful Urination,Severe,Severe pain with blood in urine or fever,9
+Blood in Urine,Normal,"Mild, occasional trace of blood",4
+Blood in Urine,Moderate,Persistent blood with mild pain,7
+Blood in Urine,Severe,Severe bleeding with dizziness or fainting,10
+Swollen Lymph Nodes,Normal,"Mild, occasional swelling",2
+Swollen Lymph Nodes,Moderate,Persistent swelling with mild tenderness,5
+Swollen Lymph Nodes,Severe,Severe swelling with fever or weight loss,8
+Vision Changes,Normal,"Mild, occasional blurriness",3
+Vision Changes,Moderate,Persistent blurriness with mild discomfort,6
+Vision Changes,Severe,Sudden vision loss or severe blurriness,9
+Hearing Loss,Normal,"Mild, occasional hearing difficulty",3
+Hearing Loss,Moderate,Persistent hearing loss with mild discomfort,6
+Hearing Loss,Severe,Sudden hearing loss or severe difficulty,9
+Memory Loss,Normal,"Mild, occasional forgetfulness",3
+Memory Loss,Moderate,Persistent memory loss with mild confusion,6
+Memory Loss,Severe,Severe memory loss with disorientation,9
+Tremors,Normal,"Mild, occasional shaking",3
+Tremors,Moderate,Persistent tremors with mild discomfort,6
+Tremors,Severe,Severe tremors with difficulty performing tasks,9
+Seizures,Normal,"Mild, occasional twitching",4
+Seizures,Moderate,Persistent seizures with mild confusion,7
+Seizures,Severe,Severe seizures with loss of consciousness,10
+Difficulty Speaking,Normal,"Mild, occasional slurring",3
+Difficulty Speaking,Moderate,Persistent difficulty with mild confusion,6
+Difficulty Speaking,Severe,Severe difficulty with inability to communicate,9
+Cold Extremities,Normal,"Mild, occasional cold hands/feet",2
+Cold Extremities,Moderate,Persistent coldness with mild numbness,5
+Cold Extremities,Severe,Severe coldness with pain or discoloration,8
+Irregular Heartbeat,Normal,"Mild, occasional palpitations",3
+Irregular Heartbeat,Moderate,Persistent irregular heartbeat with mild dizziness,6
+Irregular Heartbeat,Severe,Severe irregular heartbeat with chest pain or fainting,9

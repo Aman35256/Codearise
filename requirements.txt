@@ -1,0 +1,8 @@
+streamlit
+groq
+transformers
+pandas
+python-dotenv
+tensorflow
+tf-keras
+torch
