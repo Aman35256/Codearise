@@ -1,2 +1,2 @@
-# Codearise
+# Code Arise
 For Hackathon
